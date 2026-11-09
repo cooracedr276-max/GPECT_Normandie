@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnostics territoriaux – Anticip'Emploi Normandie | Coorace Normandie</title>
+<meta name="description" content="Diagnostics territoriaux réalisés dans le cadre du projet FSE+ Anticip'Emploi Normandie : chômage des jeunes, pauvreté et évolution des besoins de main-d'œuvre en Normandie.">
+<style>
+  :root{
+    --ink:#1d2433; --muted:#5b6475; --line:#dfe3ea; --bg:#ffffff; --soft:#f4f6f9;
+    --accent:#0b5a6e; --accent-soft:#e3f0f3; --eu:#003399;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  .eu-bar{border-bottom:1px solid var(--line);background:#fff}
+  .eu-bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+  .eu-logo{display:flex;align-items:center;gap:12px}
+  .eu-logo svg{height:52px;width:auto;display:block}
+  .eu-logo span{font-family:Arial,Helvetica,sans-serif;color:#000;font-size:17px;line-height:1.2}
+  .porteur{font-weight:600;font-size:15px;text-align:right}
+  .porteur small{display:block;font-weight:400;color:var(--muted)}
+  nav.tabs{border-bottom:1px solid var(--line);background:#fff}
+  nav.tabs .wrap{display:flex;gap:4px;flex-wrap:wrap}
+  nav.tabs a{padding:12px 14px;text-decoration:none;color:var(--muted);font-weight:600;font-size:15px;border-bottom:3px solid transparent}
+  nav.tabs a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}
+  header.hero{background:var(--soft);border-bottom:1px solid var(--line)}
+  header.hero .wrap{padding-top:40px;padding-bottom:36px}
+  .kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 10px}
+  h1{font-size:clamp(26px,4.2vw,36px);line-height:1.2;margin:0 0 14px}
+  .lede{font-size:18px;color:var(--muted);max-width:720px;margin:0}
+  section{padding:36px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:0}
+  h2{font-size:24px;margin:0 0 16px}
+  h3{font-size:17px;margin:22px 0 8px}
+  ul{padding-left:20px;margin:8px 0}
+  li{margin:4px 0}
+  figure{margin:20px 0 0}
+  figure a{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+  figure img{display:block;width:100%;height:auto}
+  figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+  .reading{background:var(--soft);border-radius:10px;padding:16px 18px;margin-top:16px}
+  .reading h3{margin-top:0}
+  .classes{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:10px}
+  .cl{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:#fff;font-size:15px}
+  .cl b{display:flex;align-items:center;gap:8px}
+  .cl i{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid rgba(0,0,0,.25)}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:12px}
+  .kpi{border:1px solid var(--line);border-radius:10px;padding:16px}
+  .kpi b{display:block;font-size:28px;color:var(--accent);line-height:1.1}
+  .kpi span{font-size:14.5px;color:var(--muted)}
+  .note{font-size:14px;color:var(--muted)}
+  footer{background:var(--soft);border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+  footer .wrap{padding-top:28px;padding-bottom:28px}
+  footer .eu-logo svg{height:40px}
+  @media (max-width:560px){.porteur{text-align:left}}
+</style>
+</head>
+<body>
+
+<div class="eu-bar">
+  <div class="wrap">
+    <div class="eu-logo" role="img" aria-label="Emblème de l'Union européenne – Cofinancé par l'Union européenne">
+      <svg viewBox="0 0 810 540" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="810" height="540" fill="#003399"/>
+        <defs><polygon id="st" fill="#FFCC00" points="0.00,-30.00 6.74,-9.27 28.53,-9.27 10.90,3.54 17.63,24.27 0.00,11.46 -17.63,24.27 -10.90,3.54 -28.53,-9.27 -6.74,-9.27"/></defs>
+        <use href="#st" x="405" y="90"/><use href="#st" x="495" y="114.1"/><use href="#st" x="560.9" y="180"/>
+        <use href="#st" x="585" y="270"/><use href="#st" x="560.9" y="360"/><use href="#st" x="495" y="425.9"/>
+        <use href="#st" x="405" y="450"/><use href="#st" x="315" y="425.9"/><use href="#st" x="249.1" y="360"/>
+        <use href="#st" x="225" y="270"/><use href="#st" x="249.1" y="180"/><use href="#st" x="315" y="114.1"/>
+      </svg>
+      <span>Cofinancé par<br>l'Union européenne</span>
+    </div>
+    <div class="porteur">Coorace Normandie<small>en partenariat avec Chantier École Normandie</small></div>
+  </div>
+</div>
+
+<nav class="tabs" aria-label="Pages du projet">
+  <div class="wrap">
+    <a href="index.html">Le projet</a>
+    <a href="diagnostics.html" aria-current="page">Diagnostics territoriaux</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Projet FSE+ Anticip'Emploi Normandie · Étape 1 : analyse des besoins</p>
+    <h1>Diagnostics territoriaux</h1>
+    <p class="lede">Pour ajuster leurs parcours d'insertion, leurs formations et leurs activités, les SIAE ont besoin de connaître les fragilités et les dynamiques d'emploi de leur territoire. Cette page présente les premières cartes produites dans le cadre du projet et la manière dont elles sont utilisées avec les structures.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="pourquoi">
+    <h2>Pourquoi des diagnostics territoriaux ?</h2>
+    <p>Les SIAE connaissent finement leur territoire, mais cette connaissance repose surtout sur l'expérience des équipes. L'enquête menée dans le cadre du projet auprès de 40 conseillers en insertion et accompagnateurs socio-professionnels le confirme :</p>
+    <div class="kpis">
+      <div class="kpi"><b>95 %</b><span>adaptent leur accompagnement au cas par cas, sans méthode formalisée pour relier projet professionnel et besoins du territoire</span></div>
+      <div class="kpi"><b>98 %</b><span>s'appuient sur les ressources en ligne de France Travail pour s'informer sur les besoins en emploi</span></div>
+      <div class="kpi"><b>34 %</b><span>estiment que la cohérence entre projets des salariés et besoins du territoire est rarement atteinte</span></div>
+    </div>
+    <p style="margin-top:16px">Le diagnostic territorial vise à compléter cette lecture de terrain par des données objectivées : situation sociale des habitants, tensions sur le marché du travail, évolution des besoins des employeurs.</p>
+  </section>
+
+  <section id="chomage-jeunes">
+    <h2>Le chômage des jeunes actifs</h2>
+    <figure>
+      <a href="cartes/chomage-jeunes.png" target="_blank" rel="noopener"><img src="cartes/chomage-jeunes.png" alt="Carte de la Normandie par intercommunalité : taux de chômage des actifs de moins de 25 ans, en sept classes allant de moins de 15 % à plus de 25 %." loading="lazy"></a>
+      <figcaption>Taux de chômage des actifs de moins de 25 ans par intercommunalité (EPCI). Source : Insee, Filosofi 2021. Cliquez sur la carte pour l'agrandir.</figcaption>
+    </figure>
+    <div class="reading">
+      <h3>Ce que montre la carte</h3>
+      <p>Le chômage des moins de 25 ans est nettement plus élevé dans l'est de la région, en Seine-Maritime et dans l'Eure, où de nombreuses intercommunalités dépassent 23 %, voire 25 %. L'ouest (Manche, ouest du Calvados et de l'Orne) se situe plus souvent entre 15 et 19 %. Ces écarts orientent les SIAE vers des publics jeunes là où leur insertion professionnelle est la plus difficile.</p>
+    </div>
+  </section>
+
+  <section id="pauvrete">
+    <h2>La pauvreté</h2>
+    <figure>
+      <a href="cartes/pauvrete.png" target="_blank" rel="noopener"><img src="cartes/pauvrete.png" alt="Carte de la Normandie par intercommunalité : taux de pauvreté au seuil de 60 % du revenu médian, en sept classes allant de 0 à 44,3 %." loading="lazy"></a>
+      <figcaption>Taux de pauvreté au seuil de 60 % du niveau de vie médian, par intercommunalité (EPCI). Source : Insee, Filosofi 2021. Cliquez sur la carte pour l'agrandir.</figcaption>
+    </figure>
+    <div class="reading">
+      <h3>Ce que montre la carte</h3>
+      <p>La pauvreté dessine une géographie différente de celle du chômage des jeunes. Les contrastes sont particulièrement forts autour des grandes agglomérations, où des intercommunalités périurbaines peu touchées (moins de 8 %) voisinent avec les territoires où le taux de pauvreté est le plus élevé. Le sud de la région, notamment dans l'Orne, compte également plusieurs intercommunalités au-dessus de 16 %.</p>
+    </div>
+  </section>
+
+  <section id="besoins">
+    <h2>L'évolution des besoins de main-d'œuvre</h2>
+    <figure>
+      <a href="cartes/besoins-main-oeuvre.png" target="_blank" rel="noopener"><img src="cartes/besoins-main-oeuvre.png" alt="Carte de la Normandie par bassin d'emploi : typologie de l'évolution des besoins de main-d'œuvre entre 2023 et 2026, en quatre profils." loading="lazy"></a>
+      <figcaption>Typologie des bassins d'emploi selon l'évolution des besoins de main-d'œuvre entre 2023 et 2026 (classification ascendante hiérarchique). Source : France Travail, enquêtes Besoins en main-d'œuvre 2023 à 2026. Cliquez sur la carte pour l'agrandir.</figcaption>
+    </figure>
+    <div class="reading">
+      <h3>Quatre profils de territoires</h3>
+      <p>Les bassins d'emploi ont été regroupés selon la manière dont les intentions d'embauche des employeurs ont évolué entre 2023 et 2026.</p>
+      <div class="classes">
+        <div class="cl"><b><i style="background:#bf63ec"></i>Profils diversifiés</b>Les plus nombreux : les besoins se répartissent entre plusieurs secteurs, sans dominante marquée.</div>
+        <div class="cl"><b><i style="background:#6ccf3d"></i>Repli industriel</b>Les besoins de recrutement reculent dans l'industrie.</div>
+        <div class="cl"><b><i style="background:#c87766"></i>Rebond agricole</b>Les besoins de recrutement progressent dans l'agriculture, notamment au centre de la Manche.</div>
+        <div class="cl"><b><i style="background:#1abbdb"></i>Bascule touristique</b>Les besoins se déplacent vers les activités liées au tourisme, à l'extrême nord-est de la région.</div>
+      </div>
+      <p style="margin-top:14px">Pour une SIAE, savoir dans quel profil se situe son territoire aide à choisir les activités supports, les formations à proposer aux salariés en parcours et les employeurs à démarcher.</p>
+    </div>
+  </section>
+
+  <section id="usage">
+    <h2>Comment ces diagnostics sont utilisés</h2>
+    <h3>Accompagnements individuels</h3>
+    <p>Des SIAE ont été accompagnées dans la réalisation d'un diagnostic territorial préalable à la réécriture de leur projet de structure, notamment :</p>
+    <ul>
+      <li>Agir en Bray (Seine-Maritime) ;</li>
+      <li>Contact Services et la Régie des Quartiers d'Évreux (Eure) ;</li>
+      <li>Accueil Emploi (Manche).</li>
+    </ul>
+    <h3>Travaux collectifs</h3>
+    <p>Des cartographies ont également été réalisées à la demande de partenaires et de SIAE ayant des besoins de recrutement : littoral seino-marin, Habitat 76, Conseil départemental de la Seine-Maritime.</p>
+    <h3>Prise en main de la plateforme de données</h3>
+    <p>Deux sessions de présentation de la plateforme de données territoriales Coorace Normandie ont été organisées avec les adhérents de Chantier École Normandie, en janvier et mai 2025.</p>
+    <p>Retrouvez les cartes interactives sur la <a href="https://cooracenormandie.opendatasoft.com/pages/gpect_normandie">plateforme de données Coorace Normandie</a>.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Vous souhaitez un diagnostic pour votre territoire ?</h2>
+    <p>Les SIAE adhérentes peuvent solliciter un appui pour réaliser leur diagnostic territorial.<br>
+    Contact : <a href="mailto:j.alleau@coorace-normandie.org">j.alleau@coorace-normandie.org</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="eu-logo" role="img" aria-label="Cofinancé par l'Union européenne">
+      <svg viewBox="0 0 810 540" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="810" height="540" fill="#003399"/>
+        <use href="#st" x="405" y="90"/><use href="#st" x="495" y="114.1"/><use href="#st" x="560.9" y="180"/>
+        <use href="#st" x="585" y="270"/><use href="#st" x="560.9" y="360"/><use href="#st" x="495" y="425.9"/>
+        <use href="#st" x="405" y="450"/><use href="#st" x="315" y="425.9"/><use href="#st" x="249.1" y="360"/>
+        <use href="#st" x="225" y="270"/><use href="#st" x="249.1" y="180"/><use href="#st" x="315" y="114.1"/>
+      </svg>
+      <span>Cofinancé par<br>l'Union européenne</span>
+    </div>
+    <p><strong>Mentions légales.</strong> Éditeur : Coorace Normandie, association déclarée, SIRET 511 112 732 00025, 23 rue Le Verrier, 76000 Rouen. Directeur de la publication : le président de l'association. Hébergement : GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. Ce site ne dépose aucun cookie et ne collecte aucune donnée personnelle.</p>
+    <p>Page mise à jour en novembre 2026.</p>
+  </div>
+</footer>
+
+</body>
+</html>
