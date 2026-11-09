@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anticip'Emploi Normandie – Projet FSE+ | Coorace Normandie</title>
+<meta name="description" content="Opération cofinancée par le FSE+ : renforcer l'adéquation emploi-formation pour les publics en insertion en Normandie (GPECT). Porteur : Coorace Normandie.">
+<style>
+  :root{
+    --ink:#1d2433; --muted:#5b6475; --line:#dfe3ea; --bg:#ffffff; --soft:#f4f6f9;
+    --accent:#0b5a6e; --accent-soft:#e3f0f3; --eu:#003399; --eu-y:#FFCC00;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  /* Bandeau UE */
+  .eu-bar{border-bottom:1px solid var(--line);background:#fff}
+  .eu-bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+  .eu-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+  .eu-logo svg{height:52px;width:auto;display:block}
+  .eu-logo span{font-family:Arial,Helvetica,sans-serif;color:#000;font-size:17px;line-height:1.2}
+  .porteur{font-weight:600;color:var(--ink);font-size:15px;text-align:right}
+  .porteur small{display:block;font-weight:400;color:var(--muted)}
+  /* En-tête */
+  header.hero{background:var(--soft);border-bottom:1px solid var(--line)}
+  header.hero .wrap{padding-top:44px;padding-bottom:40px}
+  .kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 10px}
+  h1{font-size:clamp(26px,4.2vw,38px);line-height:1.2;margin:0 0 14px}
+  .lede{font-size:18px;color:var(--muted);max-width:720px;margin:0}
+  /* Fiche d'identité */
+  .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:32px 0 8px}
+  .facts div{background:#fff;padding:16px 18px}
+  .facts dt{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 4px}
+  .facts dd{margin:0;font-weight:600}
+  .facts dd.big{font-size:22px;color:var(--eu)}
+  section{padding:36px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:0}
+  h2{font-size:24px;margin:0 0 16px}
+  h3{font-size:17px;margin:22px 0 8px}
+  ul{padding-left:20px;margin:8px 0}
+  li{margin:4px 0}
+  .steps{counter-reset:s;list-style:none;padding:0;display:grid;gap:12px}
+  .steps li{counter-increment:s;position:relative;padding:14px 16px 14px 58px;background:var(--soft);border-radius:8px;margin:0}
+  .steps li::before{content:counter(s);position:absolute;left:16px;top:14px;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;display:grid;place-items:center;font-size:14px}
+  .steps strong{display:block}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:12px}
+  .kpi{border:1px solid var(--line);border-radius:10px;padding:16px}
+  .kpi b{display:block;font-size:28px;color:var(--accent);line-height:1.1}
+  .kpi span{font-size:14.5px;color:var(--muted)}
+  .note{font-size:14px;color:var(--muted)}
+  .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600}
+  table{width:100%;border-collapse:collapse;margin-top:8px;font-size:15px}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
+  td.num,th.num{text-align:right;white-space:nowrap}
+  footer{background:var(--soft);border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+  footer .wrap{padding-top:28px;padding-bottom:28px}
+  footer .eu-logo svg{height:40px}
+  @media (max-width:560px){.porteur{text-align:left}}
+</style>
+</head>
+<body>
+
+<!-- ===== Bandeau : emblème UE + mention (obligatoire, visible sans défiler) ===== -->
+<div class="eu-bar">
+  <div class="wrap">
+    <div class="eu-logo" role="img" aria-label="Emblème de l'Union européenne – Cofinancé par l'Union européenne">
+      <svg viewBox="0 0 810 540" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="810" height="540" fill="#003399"/>
+        <defs><polygon id="st" fill="#FFCC00" points="0.00,-30.00 6.74,-9.27 28.53,-9.27 10.90,3.54 17.63,24.27 0.00,11.46 -17.63,24.27 -10.90,3.54 -28.53,-9.27 -6.74,-9.27"/></defs>
+        <use href="#st" x="405" y="90"/><use href="#st" x="495" y="114.1"/><use href="#st" x="560.9" y="180"/>
+        <use href="#st" x="585" y="270"/><use href="#st" x="560.9" y="360"/><use href="#st" x="495" y="425.9"/>
+        <use href="#st" x="405" y="450"/><use href="#st" x="315" y="425.9"/><use href="#st" x="249.1" y="360"/>
+        <use href="#st" x="225" y="270"/><use href="#st" x="249.1" y="180"/><use href="#st" x="315" y="114.1"/>
+      </svg>
+      <span>Cofinancé par<br>l'Union européenne</span>
+    </div>
+    <div class="porteur">Coorace Normandie<small>en partenariat avec Chantier École Normandie</small></div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Opération cofinancée par le Fonds social européen plus (FSE+)</p>
+    <h1>Anticip'Emploi Normandie : renforcer l'adéquation emploi-formation pour les publics en insertion</h1>
+    <p class="lede">Un projet régional qui accompagne les structures d'insertion par l'activité économique (SIAE) normandes pour mieux anticiper les besoins en emplois et en compétences de leurs territoires, en s'appuyant sur la démarche de GPECT.</p>
+
+    <dl class="facts">
+      <div><dt>Programme</dt><dd>Programme national FSE+ « Emploi, Inclusion, Jeunesse et Compétences » 2021-2027</dd></div>
+      <div><dt>Priorité / objectif spécifique</dt><dd>Priorité 3 – OS g : anticipation des mutations économiques</dd></div>
+      <div><dt>Période de réalisation</dt><dd>1<sup>er</sup> septembre 2024 – 31 décembre 2026</dd></div>
+      <div><dt>Territoire</dt><dd>Région Normandie</dd></div>
+      <div><dt>Coût total de l'opération</dt><dd class="big">240 239 €</dd></div>
+      <div><dt>Contribution de l'Union européenne (FSE+)</dt><dd class="big">144 144 € <span class="tag">60 %</span></dd></div>
+    </dl>
+    <p class="note">Dossier Ma Démarche FSE+ n° 202402379.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="contexte">
+    <h2>Pourquoi ce projet ?</h2>
+    <p>La Normandie compte environ 220 SIAE qui emploient chaque mois plus de 8 500 salariés en parcours d'insertion. Environ 130 d'entre elles sont adhérentes des réseaux Coorace Normandie et Chantier École Normandie.</p>
+    <p>Pour que ces parcours débouchent sur un emploi durable, les SIAE ont besoin d'une connaissance fine et actualisée des besoins en emplois et en compétences de leur territoire. La <strong>Gestion prévisionnelle des emplois et des compétences territoriale (GPECT)</strong> est le fil conducteur du projet : elle permet d'identifier les métiers porteurs, les compétences recherchées et les évolutions prévisibles, pour orienter la mise en situation de travail, la formation et l'accompagnement socio-professionnel des salariés.</p>
+  </section>
+
+  <section id="objectifs">
+    <h2>Objectifs</h2>
+    <ul>
+      <li>Faire de la GPECT un outil central pour accompagner les SIAE dans leur fonction d'employeur et de facilitateur de l'insertion professionnelle.</li>
+      <li>Intégrer les enjeux de transition écologique et numérique, pour que les compétences développées répondent aux besoins émergents.</li>
+      <li>Porter une attention particulière au maintien dans l'emploi des seniors.</li>
+      <li>Intégrer les démarches de Responsabilité sociétale des entreprises (RSE) et de Qualité de vie et des conditions de travail (QVCT) pour renforcer la performance globale des SIAE.</li>
+    </ul>
+    <h3>Résultats attendus d'ici fin 2026</h3>
+    <p>50 % des SIAE adhérentes aux deux réseaux, soit une soixantaine de structures, sensibilisées à chacun des quatre axes ci-dessus, et cinq à dix SIAE engagées dans une démarche d'amélioration continue (ESA, CAP, CAP ISO, CAP RSE).</p>
+  </section>
+
+  <section id="demarche">
+    <h2>La démarche en six étapes</h2>
+    <ol class="steps">
+      <li><strong>Analyse des besoins du territoire</strong>Identifier les métiers porteurs et les compétences demandées, notamment grâce à la plateforme de données territoriales Coorace Normandie (OpenDataSoft).</li>
+      <li><strong>Évaluation des compétences en interne</strong>Outiller les SIAE pour évaluer les compétences des salariés en parcours au regard des opportunités d'emploi locales.</li>
+      <li><strong>Planification des actions</strong>Valoriser et rendre transférables les compétences des salariés (RSFP, AFEST, CDI inclusion…) et renforcer les liens avec les entreprises locales.</li>
+      <li><strong>Mise en œuvre</strong>Accompagner les SIAE dans leurs actions individuelles et collectives, y compris sur les transitions écologique et numérique, la QVCT et la RSE.</li>
+      <li><strong>Suivi et évaluation</strong>Définir des indicateurs partagés avec les SIAE et capitaliser les bonnes pratiques (guide, fiches, capsules vidéo).</li>
+      <li><strong>Communication et essaimage</strong>Diffuser la démarche auprès de l'ensemble des SIAE normandes et de leurs partenaires.</li>
+    </ol>
+  </section>
+
+  <section id="resultats">
+    <h2>Où en est le projet ?</h2>
+    <p class="note">Données du bilan intermédiaire (2025).</p>
+
+    <h3>Réseau Coorace Normandie</h3>
+    <div class="kpis">
+      <div class="kpi"><b>42 SIAE</b><span>sensibilisées aux méthodes de GPECT (79 % du réseau)</span></div>
+      <div class="kpi"><b>31 SIAE</b><span>sensibilisées à l'emploi des seniors (58 %)</span></div>
+      <div class="kpi"><b>24 SIAE</b><span>sensibilisées aux transitions écologique et numérique (45 %)</span></div>
+      <div class="kpi"><b>24 SIAE</b><span>engagées dans une démarche RSE / QVCT, dont le collectif CAP RSE lancé en mars 2025</span></div>
+    </div>
+
+    <h3>Réseau Chantier École Normandie</h3>
+    <div class="kpis">
+      <div class="kpi"><b>25</b><span>référents RSFP formés au sein des SIAE normandes</span></div>
+      <div class="kpi"><b>78</b><span>lauréats RSFP parmi les salariés en parcours</span></div>
+      <div class="kpi"><b>148</b><span>participations à 4 Ateliers Pro (73 structures représentées)</span></div>
+      <div class="kpi"><b>90</b><span>participant·es à 9 sessions de formation (50 structures)</span></div>
+    </div>
+
+    <h3>Actions marquantes</h3>
+    <ul>
+      <li>Présentation du projet aux adhérents lors du séminaire Coorace Normandie des 19 et 20 septembre 2024 (Honfleur) et lors de réunions départementales dans les cinq départements.</li>
+      <li>Diagnostics territoriaux individuels accompagnant la réécriture de projets de structure.</li>
+      <li>Enquête auprès de 40 conseillers en insertion et accompagnateurs socio-professionnels sur leurs pratiques d'analyse des besoins du territoire.</li>
+      <li>Travail sur les filières prioritaires : médico-social, textile, hôtellerie-restauration, propreté, espaces verts, énergies renouvelables.</li>
+      <li>Démarche coopérative entre entreprises de travail temporaire d'insertion (ETTI) lancée en juillet 2025.</li>
+      <li>Groupes de travail sur la mixité femmes-hommes (Manche, Orne, Calvados) et séminaire QVCT réunissant 27 dirigeant·es.</li>
+    </ul>
+  </section>
+
+  <section id="principes">
+    <h2>Principes horizontaux</h2>
+    <p>Le projet veille à l'égalité entre les femmes et les hommes, à l'absence de discrimination et à l'accessibilité pour les personnes en situation de handicap, dans toutes ses actions et dans les pratiques promues auprès des SIAE.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Coorace Normandie – 23 rue Le Verrier, Centre d'activité de la Lombardie, 76000 Rouen<br>
+    Julien Alleau, co-délégué régional – <a href="mailto:j.alleau@coorace-normandie.org">j.alleau@coorace-normandie.org</a><br>
+    Laurent Bouvet, co-délégué régional – <a href="mailto:l.bouvet@coorace-normandie.org">l.bouvet@coorace-normandie.org</a></p>
+    <p>Pour aller plus loin : <a href="https://cooracenormandie.opendatasoft.com/pages/gpect_normandie">page du projet sur la plateforme de données Coorace Normandie</a>.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="eu-logo" role="img" aria-label="Cofinancé par l'Union européenne">
+      <svg viewBox="0 0 810 540" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="810" height="540" fill="#003399"/>
+        <use href="#st" x="405" y="90"/><use href="#st" x="495" y="114.1"/><use href="#st" x="560.9" y="180"/>
+        <use href="#st" x="585" y="270"/><use href="#st" x="560.9" y="360"/><use href="#st" x="495" y="425.9"/>
+        <use href="#st" x="405" y="450"/><use href="#st" x="315" y="425.9"/><use href="#st" x="249.1" y="360"/>
+        <use href="#st" x="225" y="270"/><use href="#st" x="249.1" y="180"/><use href="#st" x="315" y="114.1"/>
+      </svg>
+      <span>Cofinancé par<br>l'Union européenne</span>
+    </div>
+    <p><strong>Mentions légales.</strong> Éditeur : Coorace Normandie, association déclarée, SIRET 511 112 732 00025, 23 rue Le Verrier, 76000 Rouen. Directeur de la publication : le président de l'association. Hébergement : GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. Ce site ne dépose aucun cookie et ne collecte aucune donnée personnelle.</p>
+    <p>Page mise à jour en novembre 2026.</p>
+  </div>
+</footer>
+
+</body>
+</html>
